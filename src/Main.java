@@ -5,8 +5,7 @@ public class Main {
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
-                System.out.println("Teststst");
-                // new App().setVisible(true);
+                new App().setVisible(true);
             }
         });
     }
